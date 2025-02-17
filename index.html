@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>DocuFlip</title>
+
+        <link rel="stylesheet" href="styles.css" type="text/css" media="all" />
+
+        <!-- Google font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h3 class="brand">DocuFlip</h3>
+            </div>
+        </header>
+
+        <main>
+          <div class="hero">
+            <div class="app">
+              <h1 class="title">Word to PDF converter</h1>
+              
+              <div class="app-action">
+                <div class="app_banner">
+                  <img src="./word_to_pdf.png" alt="word_to_pdf image" width="200px"/>
+               <p>Select a Microsoft Word document (DOCX or DOC) to convert to PDF.</p>
+               
+               <div>
+                 <label for="file_input">
+                   <button class="upload_button">Upload File </button>
+                 </label>
+                 <input style="display:none" accept=".docx" type="file" id="file_input"/>
+               </div>
+                </div>
+              </div>
+            <div class="convertionHtml"></div>
+            </div>
+        
+          </div>
+        </main>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

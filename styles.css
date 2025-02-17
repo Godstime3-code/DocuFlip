@@ -1,0 +1,77 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 16px;
+}
+body{
+  font-family: Fira Sans, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Sigmar, sans-serif;
+}
+
+header{
+  padding: 1rem 3%;
+}
+
+.brand{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  color: #fc8181;
+}
+
+.hero{
+  background-color:#fc8181 ;
+  min-height: 100vh;
+  position: relative;
+  padding: 1.2rem 3%;
+}
+
+.app{
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 0 2%;
+  box-shadow: 2px 2px 8px #989696;
+}
+
+.title{
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.app-action{
+  border: 3px dashed #989696;
+  margin: 2rem 0;
+  border-radius: 15px;
+  padding: 0 3%;
+}
+
+.app_banner{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.upload_button{
+  background: dodgerblue;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border:none;
+  border-radius: 30px;
+  width: 200px;
+  font-family: Fira Sans;
+  font-weight: 700;
+  color:white;
+}
